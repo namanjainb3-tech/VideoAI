@@ -1,3 +1,19 @@
-# Environment variables
+# Runtime folders
+input/
+output/
+jobs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Environment
 .env
 .env.*
+
+# OS
+.DS_Store
+Thumbs.db
