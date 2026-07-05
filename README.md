@@ -140,10 +140,10 @@ VideoAI focuses on automating several creator workflows that are commonly spread
 | Capability | VideoAI | Canva | CapCut | Descript |
 |------------|---------|--------|---------|-----------|
 | AI Background Blur | ✅ | Premium | Limited | ❌ |
-| Automatic Captions | ✅ | Premium | ✅ | ✅ |
+| Automatic Captions | ✅ | Limited | ✅ | ✅ |
 | Highlighted Captions | ✅ | Premium | Limited | ❌ |
 | AI Caption Review | ✅ | ❌ | ❌ | Limited |
-| Built-in AI Assistant | ✅ | ❌ | ❌ | ❌ |
+| Built-in AI Assistant | ✅ | ✅ | ✅ | ✅ |
 | One-Click Workflow | ✅ | ❌ | ❌ | Partial |
 
 > **Note:** This comparison is intended to highlight workflow differences and feature availability at a high level. These products continue to evolve over time.
