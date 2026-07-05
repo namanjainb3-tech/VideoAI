@@ -793,7 +793,7 @@ AI Engineer • Full Stack Developer • Creator
 
 </a>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+<a href="https://www.linkedin.com/in/naman-jain123">
 
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
 
