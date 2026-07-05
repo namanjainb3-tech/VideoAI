@@ -28,8 +28,6 @@ Create professional, creator-ready videos using AI-powered background blur, auto
 
 <img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel"/>
 
-<img src="https://img.shields.io/github/license/namanjainb3-tech/VideoAI?style=for-the-badge"/>
-
 </p>
 
 <br/>
