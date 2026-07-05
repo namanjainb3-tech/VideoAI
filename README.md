@@ -269,7 +269,7 @@ Download a fully processed creator-ready MP4 video with a single click.
 
 ## 📥 Final Export
 
-<img src="screenshots/final.jpeg" width="95%" />
+<img src="screenshots/download.jpeg" width="95%" />
 
 *Download the fully rendered creator-ready video.*
 
