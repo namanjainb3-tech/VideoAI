@@ -1,0 +1,267 @@
+{
+    "text": " Thank you for this insightful webinar. The techniques on being an objective observer are quite useful. I will surely use these techniques with my classroom. Thank you.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 1.6800000000000006,
+            "end": 3.82,
+            "text": " Thank you for this insightful webinar.",
+            "tokens": [
+                50364,
+                1044,
+                291,
+                337,
+                341,
+                46401,
+                10942,
+                13,
+                50604
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.41580805778503416,
+            "compression_ratio": 1.346774193548387,
+            "no_speech_prob": 0.10384484380483627,
+            "words": [
+                {
+                    "word": " Thank",
+                    "start": 1.6800000000000006,
+                    "end": 2.2,
+                    "probability": 0.8342835903167725
+                },
+                {
+                    "word": " you",
+                    "start": 2.2,
+                    "end": 2.34,
+                    "probability": 0.9867890477180481
+                },
+                {
+                    "word": " for",
+                    "start": 2.34,
+                    "end": 2.5,
+                    "probability": 0.9823242425918579
+                },
+                {
+                    "word": " this",
+                    "start": 2.5,
+                    "end": 2.74,
+                    "probability": 0.9603986740112305
+                },
+                {
+                    "word": " insightful",
+                    "start": 2.74,
+                    "end": 3.26,
+                    "probability": 0.9951456189155579
+                },
+                {
+                    "word": " webinar.",
+                    "start": 3.26,
+                    "end": 3.82,
+                    "probability": 0.9958880543708801
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 4.58,
+            "end": 8.92,
+            "text": " The techniques on being an objective observer are quite useful.",
+            "tokens": [
+                50604,
+                440,
+                7512,
+                322,
+                885,
+                364,
+                10024,
+                27878,
+                366,
+                1596,
+                4420,
+                13,
+                50818
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.41580805778503416,
+            "compression_ratio": 1.346774193548387,
+            "no_speech_prob": 0.10384484380483627,
+            "words": [
+                {
+                    "word": " The",
+                    "start": 4.58,
+                    "end": 4.82,
+                    "probability": 0.9877893924713135
+                },
+                {
+                    "word": " techniques",
+                    "start": 4.82,
+                    "end": 5.24,
+                    "probability": 0.8558249473571777
+                },
+                {
+                    "word": " on",
+                    "start": 5.24,
+                    "end": 5.9,
+                    "probability": 0.9859698414802551
+                },
+                {
+                    "word": " being",
+                    "start": 5.9,
+                    "end": 6.12,
+                    "probability": 0.9974773526191711
+                },
+                {
+                    "word": " an",
+                    "start": 6.12,
+                    "end": 6.36,
+                    "probability": 0.9763977527618408
+                },
+                {
+                    "word": " objective",
+                    "start": 6.36,
+                    "end": 6.82,
+                    "probability": 0.9884093999862671
+                },
+                {
+                    "word": " observer",
+                    "start": 6.82,
+                    "end": 7.5,
+                    "probability": 0.7463259100914001
+                },
+                {
+                    "word": " are",
+                    "start": 7.5,
+                    "end": 8.24,
+                    "probability": 0.9705186486244202
+                },
+                {
+                    "word": " quite",
+                    "start": 8.24,
+                    "end": 8.44,
+                    "probability": 0.9969051480293274
+                },
+                {
+                    "word": " useful.",
+                    "start": 8.44,
+                    "end": 8.92,
+                    "probability": 0.993378221988678
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 9.72,
+            "end": 11.62,
+            "text": " I will surely use these techniques with my classroom.",
+            "tokens": [
+                50818,
+                286,
+                486,
+                11468,
+                764,
+                613,
+                7512,
+                365,
+                452,
+                7419,
+                13,
+                50968
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.41580805778503416,
+            "compression_ratio": 1.346774193548387,
+            "no_speech_prob": 0.10384484380483627,
+            "words": [
+                {
+                    "word": " I",
+                    "start": 9.72,
+                    "end": 9.76,
+                    "probability": 0.9948474168777466
+                },
+                {
+                    "word": " will",
+                    "start": 9.76,
+                    "end": 9.96,
+                    "probability": 0.30267319083213806
+                },
+                {
+                    "word": " surely",
+                    "start": 9.96,
+                    "end": 10.18,
+                    "probability": 0.9637292623519897
+                },
+                {
+                    "word": " use",
+                    "start": 10.18,
+                    "end": 10.44,
+                    "probability": 0.9941685199737549
+                },
+                {
+                    "word": " these",
+                    "start": 10.44,
+                    "end": 10.6,
+                    "probability": 0.9042266011238098
+                },
+                {
+                    "word": " techniques",
+                    "start": 10.6,
+                    "end": 10.86,
+                    "probability": 0.9929688572883606
+                },
+                {
+                    "word": " with",
+                    "start": 10.86,
+                    "end": 11.16,
+                    "probability": 0.7746707797050476
+                },
+                {
+                    "word": " my",
+                    "start": 11.16,
+                    "end": 11.3,
+                    "probability": 0.9968486428260803
+                },
+                {
+                    "word": " classroom.",
+                    "start": 11.3,
+                    "end": 11.62,
+                    "probability": 0.23550216853618622
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 12.0,
+            "end": 12.34,
+            "text": " Thank you.",
+            "tokens": [
+                50968,
+                1044,
+                291,
+                13,
+                50984
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.41580805778503416,
+            "compression_ratio": 1.346774193548387,
+            "no_speech_prob": 0.10384484380483627,
+            "words": [
+                {
+                    "word": " Thank",
+                    "start": 12.0,
+                    "end": 12.14,
+                    "probability": 0.9943704009056091
+                },
+                {
+                    "word": " you.",
+                    "start": 12.14,
+                    "end": 12.34,
+                    "probability": 0.9931331276893616
+                }
+            ]
+        }
+    ],
+    "language": "en"
+}
