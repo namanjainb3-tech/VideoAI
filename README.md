@@ -2,233 +2,221 @@
 
 # 🎬 VideoAI
 
-### AI-Powered Automatic Video Editing Platform
+> **AI-Powered Video Editing Platform with an Integrated AI Assistant**
 
-Transform raw videos into creator-ready content with AI-powered background blur, smart subtitles, caption quality review, intro merging, and export—all in a single workflow.
-
-<p>
-
+::: {align="center"}
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
 ![Flask](https://img.shields.io/badge/Flask-3.1-black)
-![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-![Whisper](https://img.shields.io/badge/OpenAI-Whisper-purple)
-![Groq](https://img.shields.io/badge/Groq-LLM-red)
 ![RunPod](https://img.shields.io/badge/Backend-RunPod-orange)
 ![Vercel](https://img.shields.io/badge/Frontend-Vercel-black)
+![Whisper](https://img.shields.io/badge/OpenAI-Whisper-purple)
+![Groq](https://img.shields.io/badge/Groq-LLM-red)
 
-</p>
+### Transform raw videos into creator-ready content using AI.
+:::
 
-<h3>
-✨ Built for Content Creators, Educators & Social Media Professionals ✨
-</h3>
-
-</div>
-
----
+------------------------------------------------------------------------
 
 # 🚀 Live Demo
 
-### Frontend
+**Frontend:** https://YOUR-VERCEL-URL.vercel.app
 
-https://YOUR-VERCEL-LINK.vercel.app
+**Backend:** Hosted on RunPod GPU
 
-### Backend
-
-Hosted on **RunPod GPU**
-
----
+------------------------------------------------------------------------
 
 # 📖 Overview
 
-VideoAI is an AI-powered video editing platform that automates one of the most repetitive parts of content creation.
+VideoAI is a full-stack AI-powered creator platform that automates
+tedious editing workflows.
 
-Instead of manually switching between multiple editing applications, users upload a video once and the platform automatically:
+Instead of moving between multiple applications, upload your video once
+and let VideoAI automatically:
 
-- 🎥 Blurs the background using AI matting
-- 🎙 Generates speech transcription
-- 💬 Creates synchronized subtitles
-- 🤖 Reviews captions using an LLM
-- 🎬 Merges branded intro videos
-- 📥 Produces a downloadable final video
+-   🎥 Blur backgrounds with AI
+-   🎙 Generate speech transcription
+-   💬 Create synchronized captions
+-   🤖 Review captions using Groq LLM
+-   🎬 Merge branded intro videos
+-   📥 Export the final video
+-   🧠 Chat with **Kitu**, the built-in AI assistant
 
-The goal is to simplify video editing while maintaining professional-quality output.
+Inspired by creator workflows found in tools like Canva, CapCut, and
+Descript, VideoAI focuses on automating repetitive editing tasks while
+keeping creators in one streamlined workflow.
 
----
+------------------------------------------------------------------------
 
-# 🌟 Why VideoAI?
+# 🤖 Meet Kitu
 
-Many creators rely on multiple paid tools for common editing tasks.
+Kitu is VideoAI's integrated conversational AI assistant.
 
-VideoAI brings these capabilities together in one automated pipeline.
+It helps users without leaving the application.
 
-### Creator Workflow Comparison
+### Kitu can help with
 
-| Feature | VideoAI | Canva | CapCut |
-|----------|---------|--------|---------|
-| AI Background Blur | ✅ | Premium | Limited |
-| Automatic Captions | ✅ | Premium | ✅ |
-| Word Highlight Captions | ✅ | Premium | Limited |
-| AI Caption Review | ✅ | ❌ | ❌ |
-| Intro Video Merge | ✅ | Manual | Manual |
-| Automated Pipeline | ✅ | ❌ | ❌ |
+-   Video editing guidance
+-   Caption improvement suggestions
+-   Platform walkthroughs
+-   Creator productivity tips
+-   General AI assistance
+-   Workflow troubleshooting
 
-> VideoAI focuses on automating repetitive editing tasks, allowing creators to spend more time creating content instead of editing it.
-
----
+------------------------------------------------------------------------
 
 # ✨ Features
 
-- 🎥 AI Background Blur
-- 🎙 Speech-to-Text (Whisper)
-- 💬 Dynamic Caption Generation
-- 🟨 Word-by-Word Caption Highlighting
-- 🤖 AI Caption Review using Groq LLM
-- 🎬 Intro Video Merging
-- 📥 Final Video Export
-- ⚡ Modern Responsive UI
-- 📊 Live Processing Status
-- 🔄 End-to-End Automated Workflow
+-   AI Background Blur (Robust Video Matting)
+-   Whisper Speech-to-Text
+-   Dynamic Caption Generation
+-   Word-by-Word Caption Highlighting
+-   AI Caption Review
+-   Kitu AI Assistant
+-   Intro Video Merge
+-   Live Processing Status
+-   Final Video Export
+-   Modern Responsive UI
 
----
+------------------------------------------------------------------------
+
+# 🌟 Why VideoAI?
+
+  Capability                VideoAI   Canva     CapCut
+  ------------------------- --------- --------- ---------
+  AI Background Blur        ✅        Premium   Limited
+  Automatic Captions        ✅        Premium   ✅
+  Word Highlight Captions   ✅        Premium   Limited
+  AI Caption Review         ✅        ❌        ❌
+  Intro Merge               ✅        Manual    Manual
+  Integrated AI Assistant   ✅        ❌        ❌
+
+> VideoAI does not aim to replace these tools entirely. Instead, it
+> automates several creator workflows that often require multiple
+> applications or paid features.
+
+------------------------------------------------------------------------
 
 # 📸 Screenshots
 
-## Landing Page
+Create a folder named:
 
-![](screenshots/landing.png)
+``` text
+screenshots/
+├── hero.png
+├── landing.png
+├── workspace.png
+├── upload.png
+├── processing.png
+├── review.png
+├── kitu.png
+├── final.png
+├── architecture.png
+```
 
----
+Then embed them:
 
-## Workspace
+``` md
+![](screenshots/hero.png)
+```
 
-![](screenshots/workspace.png)
+------------------------------------------------------------------------
 
----
+# 🎥 Workflow
 
-## Upload Pipeline
-
-![](screenshots/upload.png)
-
----
-
-## Caption Review
-
-![](screenshots/review.png)
-
----
-
-## Final Export
-
-![](screenshots/final.png)
-
----
-
-# 🎥 Processing Pipeline
-
-```text
+``` text
 Upload Video
       │
       ▼
-Background Blur (RVM)
+AI Background Blur
       │
       ▼
-Speech Transcription (Whisper)
+Speech Transcription
       │
       ▼
 Caption Generation
       │
       ▼
-Caption Quality Review (Groq)
+AI Caption Review
       │
       ▼
-Intro Video Merge
+Intro Merge
       │
       ▼
-Video Rendering
+Rendering
       │
       ▼
-Download Final Video
+Download
+
+Need help?
+      │
+      ▼
+Ask Kitu 🤖
 ```
 
----
+------------------------------------------------------------------------
 
-# 🏗 System Architecture
+# 🏗 Architecture
 
-```text
-                React + Vite
-                     │
-                 Axios API
-                     │
-          Flask REST Backend
-                     │
- ┌──────────────────────────────────────┐
- │                                      │
- │  AI Background Blur (RVM)            │
- │  Whisper Speech Recognition          │
- │  Subtitle Generation                 │
- │  Groq LLM Caption Review             │
- │  FFmpeg Rendering                    │
- │  Video Export                        │
- │                                      │
- └──────────────────────────────────────┘
-                     │
-               Final MP4 Output
+``` text
+React + Vite
+      │
+ Axios
+      │
+ Flask REST API
+      │
+ ┌─────────────────────────────┐
+ │ Background Blur (RVM)       │
+ │ Whisper Transcription       │
+ │ Caption Generator           │
+ │ Groq Review Engine          │
+ │ Kitu Chat Engine            │
+ │ FFmpeg Renderer             │
+ └─────────────────────────────┘
+      │
+ Final MP4
 ```
 
----
+------------------------------------------------------------------------
 
-# ⚙ Tech Stack
+# ⚙️ Tech Stack
 
 ## Frontend
 
-- React 19
-- Vite
-- TailwindCSS
-- Axios
-- Framer Motion
-- React Router
-
----
+-   React 19
+-   Vite
+-   Tailwind CSS
+-   Axios
+-   Framer Motion
+-   React Router
 
 ## Backend
 
-- Flask
-- Flask-CORS
-- Python
+-   Flask
+-   Flask-CORS
+-   Python
 
----
+## AI
 
-## AI & Machine Learning
-
-- Robust Video Matting (RVM)
-- OpenAI Whisper
-- Groq Llama 3.3 70B
-- OpenCV
-
----
+-   Robust Video Matting
+-   OpenAI Whisper
+-   Groq Llama 3.3
+-   OpenCV
 
 ## Video Processing
 
-- FFmpeg
-
----
+-   FFmpeg
 
 ## Deployment
 
-Frontend
+-   Frontend → Vercel
+-   Backend → RunPod GPU
 
-- Vercel
-
-Backend
-
-- RunPod GPU
-
----
+------------------------------------------------------------------------
 
 # 📂 Project Structure
 
-```text
+``` text
 VideoAI
 │
 ├── app
@@ -253,69 +241,52 @@ VideoAI
 │
 ├── assets
 ├── fonts
+├── jobs
+├── output
 ├── requirements.txt
 ├── main.py
 └── README.md
 ```
 
----
+------------------------------------------------------------------------
 
-# 🚀 Installation
+# 🚀 Local Installation
 
-## Clone Repository
-
-```bash
+``` bash
 git clone https://github.com/namanjainb3-tech/VideoAI.git
-
 cd VideoAI
 ```
 
----
+## Backend
 
-## Backend Setup
-
-```bash
+``` bash
 python -m venv .venv
-```
 
-Activate
-
-Windows
-
-```bash
+# Windows
 .venv\Scripts\activate
-```
 
-Linux / macOS
-
-```bash
+# Linux/macOS
 source .venv/bin/activate
-```
 
-Install dependencies
-
-```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env`
+Create `.env`
 
-```env
-VIDEO_GROQ_API_KEY=your_video_api_key
-KITU_GROQ_API_KEY=your_kitu_api_key
+``` env
+VIDEO_GROQ_API_KEY=your_video_key
+KITU_GROQ_API_KEY=your_kitu_key
 ```
 
 Run
 
-```bash
+``` bash
 python main.py
 ```
 
----
-
 ## Frontend
 
-```bash
+``` bash
 cd frontend
 
 npm install
@@ -323,9 +294,9 @@ npm install
 npm run dev
 ```
 
----
+------------------------------------------------------------------------
 
-# 🌐 Deployment
+# 🌍 Production Deployment
 
 ## Frontend
 
@@ -335,89 +306,62 @@ Hosted on **Vercel**
 
 Hosted on **RunPod GPU**
 
----
+Frontend environment:
 
-# 🔐 Environment Variables
-
-Backend
-
-```env
-VIDEO_GROQ_API_KEY=
-
-KITU_GROQ_API_KEY=
-```
-
-Frontend
-
-```env
+``` env
 VITE_API_URL=https://your-runpod-endpoint.proxy.runpod.net
 ```
 
----
+------------------------------------------------------------------------
 
-# 📈 Roadmap
+# 🔮 Roadmap
 
-- AI Background Replacement
-- Voice Cloning
-- AI Thumbnail Generation
-- Multiple Caption Themes
-- Cloud Storage
-- Authentication
-- Team Collaboration
-- Multi-language Translation
-- Video History
-- Batch Processing
+-   AI Background Replacement
+-   AI Thumbnail Generation
+-   Voice Cloning
+-   Multi-language Captions
+-   Multiple Caption Themes
+-   Authentication
+-   Cloud Storage
+-   Team Collaboration
+-   Batch Rendering
+-   Mobile App
 
----
+------------------------------------------------------------------------
 
 # 🤝 Contributing
 
-Contributions are welcome.
+``` bash
+git checkout -b feature/my-feature
 
-```bash
-git checkout -b feature/amazing-feature
-```
+git commit -m "Add amazing feature"
 
-Commit
-
-```bash
-git commit -m "Added amazing feature"
-```
-
-Push
-
-```bash
-git push origin feature/amazing-feature
+git push origin feature/my-feature
 ```
 
 Open a Pull Request.
 
----
+------------------------------------------------------------------------
 
 # 📄 License
 
 Licensed under the MIT License.
 
----
+------------------------------------------------------------------------
 
 # 👨‍💻 Author
 
 ## Naman Jain
 
-GitHub
+GitHub: https://github.com/namanjainb3-tech
 
-https://github.com/namanjainb3-tech
+LinkedIn: *(Add your profile)*
 
-LinkedIn
+------------------------------------------------------------------------
 
-www.linkedin.com/in/naman-jain123
+::: {align="center"}
+## ⭐ If you found this project useful, please star the repository!
 
----
+Built with ❤️ by **Naman Jain**
+:::
 
-<div align="center">
-
-### ⭐ Star the repository if you found it useful!
-
-Made with ❤️ by **Naman Jain**
-
-</div>
