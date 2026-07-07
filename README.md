@@ -36,7 +36,7 @@ Create professional, creator-ready videos using AI-powered background blur, auto
 
 <p align="center">
 
-<a href="https://YOUR-VERCEL-URL.vercel.app">
+<a href="https://video-ai-flax.vercel.app/">
 
 <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Website-blue?style=for-the-badge"/>
 
