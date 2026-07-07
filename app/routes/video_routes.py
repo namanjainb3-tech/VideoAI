@@ -28,20 +28,67 @@ def home():
 @video_bp.route("/process", methods=["POST"])
 def process_video():
 
-    print("1")
+    print("=" * 60)
+    print("PROCESS ENDPOINT HIT")
+    print("=" * 60)
+
+    print("FILES:", request.files)
+    print("FORM:", request.form)
+
+    if "video" not in request.files:
+
+        response = {
+            "success": False,
+            "error": "No video uploaded.",
+            "files": list(request.files.keys()),
+            "form": list(request.form.keys()),
+        }
+
+        print("RETURNING:", response)
+
+        return jsonify(response), 400
+
+    video = request.files["video"]
+
+    intro_video = request.files.get("intro_video")
 
     try:
-        print("2")
-        print(request.files)
-        print("3")
-        print(request.form)
-        print("4")
-    except Exception as e:
-        import traceback
-        traceback.print_exc()
-        return jsonify({"error": str(e)}), 500
 
-    return jsonify({"success": True})
+        print("Starting VideoProcessingEngine...")
+
+        job = video_processing_engine.start(
+            video,
+            intro_video,
+        )
+
+        print("Job Object:", job)
+
+        print("Job ID:", job.job_id)
+
+        response = {
+            "success": True,
+            "job_id": job.job_id,
+            "status": job.status,
+        }
+
+        print("RETURNING:", response)
+
+        return jsonify(response)
+
+    except Exception as e:
+
+        import traceback
+
+        traceback.print_exc()
+
+        response = {
+            "success": False,
+            "error": str(e),
+        }
+
+        print("RETURNING ERROR:", response)
+
+        return jsonify(response), 500
 
 @video_bp.route("/status/<job_id>", methods=["GET"])
 def job_status(job_id):
