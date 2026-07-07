@@ -27,19 +27,20 @@ def home():
 
 @video_bp.route("/process", methods=["POST"])
 def process_video():
-
     print("PROCESS ENDPOINT HIT")
+    print("FILES:", request.files)
+    print("FORM:", request.form)
 
     if "video" not in request.files:
 
-        return jsonify(
+        return jsonify({
+            "success": False,
+            "error": "No video uploaded.",
+            "files": list(request.files.keys()),
+            "form": list(request.form.keys())
+        }), 400
 
-            {   
-                "success": False,
-                "error": "No video uploaded."
-            }
-
-        ), 400
+    video = request.files["video"]
 
     video = request.files["video"]
 
