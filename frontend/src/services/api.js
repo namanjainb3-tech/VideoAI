@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
 
-    baseURL: "https://by2si00juaqzcz-5000.proxy.runpod.net/",
+    baseURL: "https://2xlh3ih4236p7p-5000.proxy.runpod.net/",
 
 });
 
