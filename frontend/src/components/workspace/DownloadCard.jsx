@@ -117,7 +117,7 @@ function DownloadCard({ downloadUrl }) {
                         </div>
 
                         <a
-                            href={`https://by2si00juaqzcz-5000.proxy.runpod.net/${downloadUrl}`}
+                            href={`https://2xlh3ih4236p7p-5000.proxy.runpod.net/${downloadUrl}`}
                             className="
                                 inline-flex
                                 items-center
