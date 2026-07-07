@@ -147,6 +147,9 @@ function WorkspaceGrid() {
 
             const response = await api.post("/process", formData);
 
+            console.log("PROCESS RESPONSE:", response.data);
+            console.log("JOB ID:", response.data.job_id);
+
             setJob(response.data);
 
             localStorage.setItem(
