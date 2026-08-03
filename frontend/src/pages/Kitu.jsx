@@ -191,9 +191,11 @@ function Kitu() {
 
 Thanks for checking out VideoAI.
 
+
 You're currently exploring the public demo version of the platform.
 
 My AI backend is hosted on a dedicated GPU server (RunPod), which is kept offline when not in use because the AI pipeline relies on GPU-intensive models such as Whisper, Robust Video Matting, OpenCV, and FFmpeg.
+
 
 Although I can't respond right now, you can still:
 
@@ -202,6 +204,8 @@ Although I can't respond right now, you can still:
 🖥️ Explore the complete VideoAI interface and workflow.
 
 💻 Check out the GitHub repository to learn how the system is built.
+(Link: https://github.com/namanjainb3-tech/VideoAI)
+
 
 Thanks for visiting, and I hope you enjoy exploring the project! 🚀`,
 
