@@ -21,4 +21,4 @@ VIDEO_GROQ_API_KEY = os.getenv("VIDEO_GROQ_API_KEY")
 
 KITU_GROQ_API_KEY = os.getenv("KITU_GROQ_API_KEY")
 
-MODEL_NAME = "llama-3.3-70b-versatile"
+MODEL_NAME = "openai/gpt-oss-120b"
