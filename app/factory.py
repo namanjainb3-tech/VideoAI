@@ -120,7 +120,7 @@ groq_client = GroqLLMClient(
 
     client=video_client,
 
-    model_name="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
 
     prompt_builder=prompt_builder
 
