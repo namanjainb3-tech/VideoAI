@@ -246,6 +246,6 @@ chat_engine = ChatEngine(
 
     client=kitu_client,
 
-    model="openai/gpt-oss-120b",
+    model_name="openai/gpt-oss-120b",
 
 )
